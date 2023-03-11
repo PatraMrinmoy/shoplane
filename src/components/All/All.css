@@ -1,0 +1,29 @@
+.all_cards{
+    /* display: flex;
+ flex-direction: row !important; */
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+}
+.all_card_img{
+    outline-style: ridge;
+    justify-content: space-around;
+    border-left-style: none;
+    border-right-style: none ;
+    border-spacing: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-spacing: 20px 20px 20px 20px;
+
+}
+.submit{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.all_card{
+    margin: 1%;
+}

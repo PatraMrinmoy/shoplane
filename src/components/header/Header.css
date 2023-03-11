@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  .header-container{
+    /* height: 150px; */
+    /* border: 1px solid black; */
+    margin-bottom: 25px;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    z-index: 1;
+  
+  }
+  
+  .main-head{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 100px;
+    /* border: 1px solid black; */
+    align-items: center;
+    height: 70px;
+  
+  }
+  
+  .logo-section{
+    font-size: large;
+    font-weight: 500;
+    /* height: 50px; */
+  }
+  
+  .logo-section h2{
+    font-weight: 400;
+    margin: 0px;
+  }
+  
+  .logo-section-a{
+  text-decoration: none;
+  color: black;
+  }
+  
+  
+  .logo-title{
+    color: rgb(69, 186, 249);
+  }
+  
+  /* .logo-title span{
+  color: black;
+  } */
+  .cart-section{
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart{
+    margin-left: 10px;
+    font-weight: bolder;
+    width: 35px;
+  }
+  
+  .login-signup{
+    display: flex;
+    width: 130px;
+    height: 40px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 0px 2px;
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    justify-content: space-evenly;
+  }
+  
+  
+  .drop-arrow{
+    width: 15px;
+  }
+  
+  
+  .dropdown {
+    /* position: relative; */
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu {
+    position: absolute;
+    list-style-type: none;
+    margin: 0px 0px;
+    padding: 0;
+    top: 62px;
+    width: 130px;
+    border: none;
+    box-shadow: rgb(0 0 0 / 35%) 0px 0px 2px;
+    border-radius: 5px;
+  
+  
+  }
+  
+  .menu li:nth-child(2){
+  border-bottom: 0.3px solid gray !important;
+  }
+  
+  .menu  li a {
+    color: black;
+    text-decoration: none;
+    font-size: smaller;
+  }
+  
+  svg{
+  vertical-align: middle;
+  }
+  
+  .menu  li:first-child{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+  }
+  
+  .menu  li:last-child{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+  }
+  
+  
+  
+  .menu  li:hover {
+    background-color: rgb(240, 239, 239);
+  }
+  
+  .menu li {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    background-color: white;
+    color: inherit;
+    border: none;
+    margin: 0;
+    font-size: small;
+    cursor: pointer;
+  }
+  
+  .or-signup{
+    font-size: small;
+    margin: 0px;
+    color: gray;
+  
+  }
+  
+  p{
+    margin: 0px;}
+  
+  
+  .login{
+    font-weight: 600;
+    margin: -2px 13px -8px 0px;
+    padding: 0;
+  }
+  
+  
+  .main-nav ul{
+    display: flex;
+    list-style-type: none;
+    border-bottom: 0.5px solid grey;
+    border-top: 0.5px solid gray;
+    justify-content: center;
+    margin: 0%;
+  }
+  
+  .main-nav ul li {
+    margin-right: 75px;
+    font-size: 14px;
+    font-weight: 500;
+  
+  }
+  .link{
+  font-family: sans-serif;
+  width: 100%;
+  display: block;
+  padding: 5px 0px 5px 5px;
+  
+  
+  }
+  
+  .nav-link{
+  
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 8px 10px;
+  margin: 2px 0px;
+  }
+  
+  
+  
+  .cart-div{
+  position: relative;
+  }
+  
+  .cart-div span {
+  position: absolute;
+  background-color: rgb(254, 6, 6);
+  color: white;
+  top: 2px;
+  padding: 0px;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  font-size: 10px;
+  text-align: center;
+  left: 42px;
+  }
